@@ -23,8 +23,11 @@ driver = iniciar_driver()
 driver.get('https://cursoautomacao.netlify.app/')
 botao = driver.find_element(By.ID, 'buttonalerta')
 botoes= driver.find_elements(By.ID, 'buttonalerta')
+
+# Apos o By.ID podemos usar NAME, CLASS_NAME, LINK_TEXT, XPATH - '//*[text()="ZONA DE TESTES"]
+
 if botao is not None:
     print('botão foi encontrado')
 if botoes is not None:
     print('Botoes encontrados')  # assim ele indica se foi encontrado o elemento 
-input('apertar tecla para sair\n')
+input('apertar tecla para sair\n')  # Assim a página não fecha 
