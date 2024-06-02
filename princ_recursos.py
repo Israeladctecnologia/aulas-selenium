@@ -25,7 +25,7 @@ def iniciar_driver():
 
 
 driver = iniciar_driver()
-driver.get("https://cursoautomacao.netlify.com/")  # navegar até um site
+driver.get("ttps://cursoautomacao.netlify.com/h")  # navegar até um site
 driver.maximize_window()  # maximizar a janela
 driver.refresh()  # recarrega página atual
 driver.get(driver.current_url)  # recarrega página atual
