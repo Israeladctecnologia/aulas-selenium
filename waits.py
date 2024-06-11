@@ -67,3 +67,5 @@ campo_email.send_keys('jhonatan@hotmail.com')
 
 input('')
 driver.close()
+
+#documentação: https://selenium-python.readthedocs.io/api.html?_gl=1*ygzc89*_ga*MjA0NjkwMTk0LjE3MTM1NDgyMTQ.*_ga_37GXT4VGQK*MTcxNzg4MDQ0MC42Mi4xLjE3MTc4ODIwMTguMC4wLjA.#module-selenium.common.exceptions
